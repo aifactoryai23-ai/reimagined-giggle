@@ -1,31 +1,39 @@
-/* ==========================
-   Animated mark highlight
-   ========================== */
-
-mark {
-
-  background: linear-gradient(90deg, #ffe28a 0%, #fff2a1 50%, #ffe28a 100%);
-
-  background-size: 200% 100%;
-  color: #1a1a1a;
-  font-weight: 500;
-  padding: 0 4px;
-  border-radius: 3px;
-  box-decoration-break: clone;
-  -webkit-box-decoration-break: clone;
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
-  animation: markFlow 4s ease-in-out infinite;
+/* Parallax Effect Styles */
+.cv {
+  position: absolute;
+  left: 5px;
+  top: 5px;
+  cursor: move;
+  margin: 0;
+  padding: 0;
 }
 
-/* мягкое дыхание света */
-@keyframes markFlow {
-  0% {
-    background-position: 0% 0%;
-  }
-  50% {
-    background-position: 100% 0%;
-  }
-  100% {
-    background-position: 0% 0%;
-  }
+.cv2 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  cursor: move;
+  margin: 0;
+  padding: 0;
+}
+
+#test {
+  position: absolute;
+  visibility: hidden;
+  height: auto;
+  width: auto;
+  white-space: nowrap;
+  margin: 0;
+  padding: 0;
+}
+
+#mouseInfo {
+  position: absolute;
+  left: 10px;
+  top: 3px;
+  color: blue;
+  background: lightyellow;
+  width: 200px;
+  height: 30px;
+  display: none;
 }
