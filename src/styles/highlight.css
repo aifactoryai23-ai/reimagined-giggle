@@ -17,7 +17,7 @@
   padding: 0;
 }
 
-#test {
+.test-element {
   position: absolute;
   visibility: hidden;
   height: auto;
@@ -37,3 +37,4 @@
   height: 30px;
   display: none;
 }
+
