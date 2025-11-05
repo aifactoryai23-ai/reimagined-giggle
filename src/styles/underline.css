@@ -1,0 +1,19 @@
+.underline--magical {
+  --color1: rgba(56, 189, 248, 0.4); /* голубой с прозрачностью */
+  --color2: rgba(168, 85, 247, 0.4); /* фиолетовый с прозрачностью */
+  --bg-height: 0.2em; /* тонкая линия */
+
+  all: unset;
+  background-image: linear-gradient(to right, var(--color1), var(--color2));
+  background-repeat: no-repeat;
+  background-size: 0% var(--bg-height);
+  background-position: 0 100%;
+  animation: underlineGrow 800ms ease-out forwards;
+  animation-play-state: paused;
+}
+
+@keyframes underlineGrow {
+  to {
+    background-size: 100% var(--bg-height);
+  }
+}

@@ -1,0 +1,126 @@
+/* legal.css - Styles for Legal Documents (Terms, Privacy Policy) */
+/* Inspired by formulabot.com's clean style */
+
+:root {
+    --primary-text: #2d3748; /* Dark gray for main text */
+    --secondary-text: #4a5568; /* Lighter gray for less important text */
+    --heading-color: #1a202c; /* Near black for headings */
+    --accent-color: #2563eb; /* A professional blue for links */
+    --accent-hover: #1d4ed8; /* Darker blue on hover */
+    --background: #ffffff;
+    --border-color: #e2e8f0;
+    --max-width: 800px;
+}
+
+.legal-document {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 2rem 1rem;
+    color: var(--primary-text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+.legal-document h1 {
+    color: var(--heading-color);
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 0.5rem;
+}
+
+.legal-document .last-updated {
+    color: var(--secondary-text);
+    font-style: italic;
+    margin-bottom: 2rem;
+    font-size: 0.9rem;
+}
+
+.legal-document h2 {
+    color: var(--heading-color);
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.legal-document h3 {
+    color: var(--heading-color);
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-top: 1.8rem;
+    margin-bottom: 0.8rem;
+}
+
+.legal-document p {
+    margin-bottom: 1rem;
+}
+
+.legal-document ul, .legal-document ol {
+    margin-bottom: 1rem;
+    padding-left: 1.5rem;
+}
+
+.legal-document li {
+    margin-bottom: 0.5rem;
+}
+
+.legal-document a {
+    color: var(--accent-color);
+    text-decoration: none;
+}
+
+.legal-document a:hover {
+    color: var(--accent-hover);
+    text-decoration: underline;
+}
+
+/* Style for capitalized headings like "AGREEMENT TO TERMS" */
+.legal-document .section-heading {
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+    color: var(--heading-color);
+    margin-top: 2rem;
+}
+
+/* Style for important notices and warnings */
+.legal-document .notice {
+    background-color: #fffaf0; /* Light amber background */
+    border-left: 4px solid #f59e0b; /* Amber accent border */
+    padding: 1rem;
+    margin: 1.5rem 0;
+    border-radius: 0 4px 4px 0;
+    font-weight: 500;
+}
+
+/* Style for the prohibited actions list */
+.legal-document .prohibited-list {
+    background-color: #f8f9fa; /* Very light gray */
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+}
+
+.legal-document .prohibited-list li {
+    margin-bottom: 0.75rem;
+}
+
+/* Responsive design for mobile */
+@media (max-width: 768px) {
+    .legal-document {
+        padding: 1rem 0.5rem;
+        font-size: 15px;
+    }
+    
+    .legal-document h1 {
+        font-size: 2rem;
+    }
+    
+    .legal-document h2 {
+        font-size: 1.3rem;
+    }
+}
