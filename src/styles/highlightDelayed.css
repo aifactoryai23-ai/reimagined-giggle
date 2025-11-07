@@ -1,0 +1,19 @@
+/* highlightDelayed.css — подсветка с небольшой задержкой и плавным переходом */
+.highlight-delayed {
+  background-image: linear-gradient(
+    to right,
+    rgba(56, 189, 248, 0.35),
+    rgba(168, 85, 247, 0.35)
+  );
+  background-repeat: no-repeat;
+  background-size: 0% 45%;
+  background-position: 0 100%;
+  transition: background-size 1.6s ease-out, opacity 1.3s ease;
+  opacity: 0.3;
+  border-radius: 0.25rem;
+}
+
+.highlight-delayed.highlight-delayed-active {
+  background-size: 100% 45%;
+  opacity: 1;
+}
