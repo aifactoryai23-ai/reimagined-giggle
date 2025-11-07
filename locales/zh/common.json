@@ -1,0 +1,204 @@
+{
+  "loading": "加载中…",
+  "languageSwitcher": {
+    "label": "语言",
+    "english": "英语",
+    "russian": "俄语",
+    "spanish": "西班牙语",
+    "chinese": "中文"
+  },
+  "buttons": {
+    "tryForFree": "免费试用",
+    "viewExamples": "查看示例",
+    "chat": "与我聊天",
+    "showSuccessToast": "🟢 显示成功提示",
+    "showErrorToast": "🔴 显示错误提示",
+    "download": "下载",
+    "regenerate": "重新生成",
+    "close": "关闭",
+    "cancel": "取消",
+    "signIn": "登录"
+  },
+  "layout": {
+    "tagline": "专业布置，瞬间完成",
+    "nav": {
+      "home": "首页",
+      "transform": "变换",
+      "gallery": "图库",
+      "pricing": "价格",
+      "api": "API"
+    },
+    "footer": {
+      "description": "只需几秒即可将任何房产照片变成精致的专业房源。",
+      "product": "产品",
+      "company": "公司",
+      "transform": "照片变换",
+      "gallery": "图库",
+      "pricing": "价格",
+      "api": "API 访问",
+      "contact": "联系我们",
+      "upgrade": "升级到 Pro",
+      "privacy": "隐私政策",
+      "terms": "服务条款",
+      "rights": "© {{year}} StageAI - 室内设计 AI 应用。保留所有权利。"
+    }
+  },
+  "beforeAfter": {
+    "drag": "拖动滑块进行对比",
+    "after": "✨ AI 布置后",
+    "before": "📸 布置前",
+    "swipe": "👆 向左或向右滑动进行对比"
+  },
+  "toastTest": {
+    "title": "通知测试页",
+    "successTitle": "✅ 成功通知",
+    "successMessage": "一切运行正常！",
+    "errorTitle": "❌ 错误通知",
+    "errorMessage": "出现了一些问题。"
+  },
+  "pricing": {
+    "label": "// 价格",
+    "title": "选择最适合你的方案",
+    "subtitle": "别人争夺你的注意力，我们帮你节省时间。",
+    "billing": {
+      "monthly": "按月",
+      "yearly": "按年"
+    },
+    "badge": "最受欢迎",
+    "button": "免费开始 →",
+    "plans": {
+      "monthly": [
+        {
+          "id": "pro_individual",
+          "name": "Pro 个人版",
+          "price": "$4.99",
+          "period": "月",
+          "description": "适合独立设计师和经纪人",
+          "icon": "crown",
+          "popular": true,
+          "showPeriod": true,
+          "features": [
+            { "text": "每月 25 次 AI 转换", "highlight": true },
+            { "text": "高级设计模板" },
+            { "text": "高清图像质量" },
+            { "text": "优先支持" }
+          ]
+        },
+        {
+          "id": "pro_agency",
+          "name": "Pro 机构版",
+          "price": "$30",
+          "period": "月",
+          "description": "面向机构和专业团队",
+          "icon": "zap",
+          "popular": false,
+          "showPeriod": true,
+          "features": [
+            { "text": "每月 200 次 AI 转换", "highlight": true },
+            { "text": "团队协作工具" },
+            { "text": "专属成功经理" },
+            { "text": "API 与白标选项" }
+          ]
+        },
+        {
+          "id": "pro_ultimate",
+          "name": "Pro 旗舰版",
+          "price": "$120",
+          "period": "月",
+          "description": "适合大型项目与持续创作的团队",
+          "icon": "rocket",
+          "popular": false,
+          "showPeriod": true,
+          "features": [
+            { "text": "每月 1000 次 AI 转换", "highlight": true },
+            { "text": "高级自动化工具" },
+            { "text": "新功能抢先体验" },
+            { "text": "更高的 API 与白标额度" }
+          ]
+        },
+        {
+          "id": "custom",
+          "name": "定制方案",
+          "price": "按需报价",
+          "period": "月",
+          "description": "提供含 API 访问的定制方案",
+          "icon": "zap",
+          "popular": false,
+          "showPeriod": false,
+          "features": [
+            { "text": "每月无限次转换", "highlight": true },
+            { "text": "完整 API 访问" },
+            { "text": "团队管理" },
+            { "text": "优先 SLA 支持" }
+          ]
+        }
+      ],
+      "yearly": [
+        {
+          "id": "pro_individual",
+          "name": "Pro 个人版",
+          "price": "$49",
+          "period": "年",
+          "description": "年付节省 20%",
+          "icon": "crown",
+          "popular": true,
+          "showPeriod": true,
+          "features": [
+            { "text": "每年 300 次 AI 转换", "highlight": true },
+            { "text": "高级设计模板" },
+            { "text": "高清图像质量" },
+            { "text": "优先支持" }
+          ]
+        },
+        {
+          "id": "pro_agency",
+          "name": "Pro 机构版",
+          "price": "$299",
+          "period": "年",
+          "description": "非常适合忙碌的创意团队",
+          "icon": "zap",
+          "popular": false,
+          "showPeriod": true,
+          "features": [
+            { "text": "每年 2400 次 AI 转换", "highlight": true },
+            { "text": "团队协作工具" },
+            { "text": "专属成功经理" },
+            { "text": "API 与白标选项" }
+          ]
+        },
+        {
+          "id": "pro_ultimate",
+          "name": "Pro 旗舰版",
+          "price": "$1300",
+          "period": "年",
+          "description": "适合大型项目与持续创作的团队",
+          "icon": "rocket",
+          "popular": false,
+          "showPeriod": true,
+          "features": [
+            { "text": "每年 12000 次 AI 转换", "highlight": true },
+            { "text": "高级自动化工具" },
+            { "text": "新功能抢先体验" },
+            { "text": "更高的 API 与白标额度" }
+          ]
+        },
+        {
+          "id": "custom",
+          "name": "定制方案",
+          "price": "按需报价",
+          "period": "年",
+          "description": "企业级 API 访问",
+          "icon": "zap",
+          "popular": false,
+          "showPeriod": false,
+          "features": [
+            { "text": "每年无限次转换", "highlight": true },
+            { "text": "完整 API 访问" },
+            { "text": "团队管理" },
+            { "text": "优先 SLA 支持" }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "meta": {
+    "title": "AI 家居布景应用 | 通过虚拟设计更快出售和出租房产",
+    "description": "面向个人卖家、Airbnb 房东和 DIY 房主的 AI 家居布景应用。即时优化房产照片、去除杂物，打造令人惊艳的房产视觉，助你更快出售或出租。",
+    "keywords": "AI 家居布景, 虚拟布景, 房地产照片优化, 房产照片 AI, 房源优化, Airbnb 照片提升, DIY 卖房, 更快卖房",
+    "ogTitle": "AI 家居布景应用 | 更快出售与出租",
+    "ogDescription": "用 AI 改造房产照片。去除杂乱、提升光线，几秒内完成虚拟布景。",
+    "ogImage": "https://interiordesignbot.com/interiordesignbot_logo.png"
+  },
+  "hero": {
+    "titlePrefix": "改造房源，",
+    "titleHighlight": "更快售出，节省时间",
+    "description": "几秒钟内将任何室内或室外照片变成惊艳的专业房源。无需装修，无需设计师费用，尽享 AI 家居布景。",
+    "freeTransformations": "2 次免费转换",
+    "noCardRequired": "无需信用卡"
+  },
+  "benefits": {
+    "title": "专业布景应用。一键布置，一周成交",
+    "subtitle": "<mark>专业布景，无需等待也无需额外花费</mark>",
+    "items": [
+      {
+        "id": "instantGlow",
+        "icon": "zap",
+        "title": "即刻点亮你的房源",
+        "description": "瞬间把凌乱的房间变成杂志级房源 — 无需设计师。"
+      },
+      {
+        "id": "magicWand",
+        "icon": "wand",
+        "title": "AI 魔法棒",
+        "description": "自动去除杂物、增强光线，只需一键即可重新设计任何房间。"
+      },
+      {
+        "id": "sellFaster",
+        "icon": "spotlight",
+        "title": "更快卖出房屋",
+        "description": "不再苦等数月 — 布景后的房屋成交速度提升 40%。"
+      }
+    ]
+  },
+  "priceList": {
+    "title": "价目表",
+    "subtitle": "<mark>献给还未使用 InteriorDesign 应用的人</mark>",
+    "items": [
+      {
+        "id": "ai",
+        "text": "AI 全程搞定 .......... $5",
+        "extra": "+ 你拥有更多时间"
+      },
+      {
+        "id": "yourself",
+        "text": "自己布景 ................. $500",
+        "extra": "+ 压力"
+      },
+      {
+        "id": "designer1",
+        "text": "请设计师布景 ................... $1500"
+      },
+      {
+        "id": "designerWait",
+        "text": "请设计师，等待周期 ........ $2500"
+      },
+      {
+        "id": "designerDisagree",
+        "text": "请设计师，你们意见不合 ..... $4000"
+      },
+      {
+        "id": "redesign",
+        "text": "反馈后再次改版 ..... $6000",
+        "extra": "+ 眼泪"
+      },
+      {
+        "id": "again",
+        "text": "一遍又一遍重新来过 ..... $8000",
+        "extra": "+ 眼泪"
+      }
+    ]
+  },
+  "perfectFor": {
+    "title": "适合人群",
+    "items": [
+      {
+        "id": "privateSellers",
+        "title": "自行出售房屋的业主",
+        "desc1": "<mark>轻松为线上房源准备房屋照片</mark> — 无需中介，也不用昂贵布景。",
+        "desc2": "上传你的照片，描述想要的改变，让 AI 立即清理杂物、提亮并重新布置房间。"
+      },
+      {
+        "id": "marketplaces",
+        "title": "房地产平台上的 DIY 卖家",
+        "desc1": "让你的房源在成千上万条信息中脱颖而出。",
+        "desc2": "即使自己卖房，<mark>AI 虚拟布景也能把普通照片变成专业的杂志级图片</mark>。"
+      },
+      {
+        "id": "rentals",
+        "title": "短租房东（Airbnb、Booking、Hotels、Cian、Avito、Trivago、Expedia、Agoda）",
+        "desc1": "用惊艳的布景照片获得更多预订。",
+        "desc2": "<mark>AI 布景会清理杂乱、提亮并美化室内</mark> — 让你的房源看起来温馨、有吸引力、随时迎客。"
+      },
+      {
+        "id": "movingFamilies",
+        "title": "准备搬家的家庭",
+        "desc1": "在搬家前展示你家的全部潜力。",
+        "desc2": "无论房间空置还是堆满纸箱，<mark>AI 布景都能虚拟摆放家具并装饰</mark>，帮助买家想象入住后的模样。"
+      },
+      {
+        "id": "afterRenovation",
+        "title": "装修或重新装饰后的房主",
+        "desc1": "用专业布景的视觉效果展示你的装修成果。",
+        "desc2": "使用 AI <mark>以不同风格呈现空间</mark> —— 如北欧、现代或极简 —— 让房源照片熠熠生辉。"
+      }
+    ]
+  },
+  "styles": {
+    "title": "选择你的风格",
+    "subtitle": "从现代极简到温馨舒适 — 打造最符合房源的风格。",
+    "note": "摄影：四张同列来自 Nicole Franzen —— 她真的很棒！",
+    "items": [
+      { "id": "modern", "name": "现代" },
+      { "id": "scandinavian", "name": "北欧" },
+      { "id": "minimal", "name": "极简" },
+      { "id": "cozy", "name": "温馨" }
+    ]
+  },
+  "transformation": {
+    "title": "看看 AI 的改造效果",
+    "subtitle": "一个提示，演绎无限房源"
+  },
+  "cta": {
+    "title": "准备好改造你的房源了吗？",
+    "subtitle": "先享受 2 次免费转换。无需信用卡。"
+  }
+}
