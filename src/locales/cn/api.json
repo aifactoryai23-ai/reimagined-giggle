@@ -1,0 +1,65 @@
+{
+  "hero": {
+    "badge": "// API",
+    "title": "通过我们的 API 扩展你的平台",
+    "description": "将 AI 虚拟家装直接接入你的房产平台、商城或经纪团队流程，在无需刷新页面的情况下批量处理无限量图片。"
+  },
+  "features": [
+    {
+      "id": "lightning",
+      "icon": "zap",
+      "title": "极速处理",
+      "description": "依托优化的 AI 基础设施，每小时处理成千上万张房源照片，即使是大型资产组合也能在当天交付。"
+    },
+    {
+      "id": "security",
+      "icon": "shield",
+      "title": "企业级安全",
+      "description": "通过 SOC 2 合规与端到端加密，全面守护你的房源与客户数据。"
+    },
+    {
+      "id": "scaling",
+      "icon": "cpu",
+      "title": "自动伸缩",
+      "description": "从 10 张到 10 000+ 张图片都能稳定处理，性能始终如一。"
+    }
+  ],
+  "code": {
+    "filename": "api_example.js",
+    "snippet": "// Simple API Integration\\ntry {\\n  const response = await fetch('https://api.interiordesignbot.com/v1/transform', {\\n    method: 'POST',\\n    headers: {\\n      'Authorization': 'Bearer YOUR_API_KEY', // Replace with real key\\n      'Content-Type': 'application/json'\\n    },\\n    body: JSON.stringify({\\n      image_url: 'https://...', // Replace with real URL\\n      style: 'modern',\\n      prompt: 'Transform to luxury apartment'\\n    })\\n  });\\n\\n  if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);\\n\\n  const result = await response.json();\\n\\n  if (result.staged_image_url) {\\n    console.log('Transformed image:', result.staged_image_url);\\n  } else {\\n    console.error('No staged_image_url in response:', result);\\n  }\\n\\n} catch (error) {\\n  console.error('API request failed:', error);\\n}"
+  },
+  "useCases": {
+    "title": "适用场景",
+    "items": [
+      {
+        "id": "platforms",
+        "title": "房产平台",
+        "subtitle": "为房源列表自动优化图片。",
+        "description": "平台照片参差不齐、影响成交？接入 AI 虚拟家装，用户上传的每张图片都会即时升级，全面提升房源质量和买家体验。"
+      },
+      {
+        "id": "agencies",
+        "title": "房产中介",
+        "subtitle": "让经纪人在熟悉的流程中拥有强大的家装能力。",
+        "description": "帮助经纪人赢得更多委托、加快成交速度。以低成本的数字家装代替昂贵的线下布置，几秒钟就能把杂乱照片变成理想样板间。"
+      },
+      {
+        "id": "marketplaces",
+        "title": "房产电商与市场",
+        "subtitle": "为卖家提供增值的高端家装服务。",
+        "description": "打造差异化体验并创造新增收入。将 AI 家装作为增值服务出售，精美的图片能更快促成交易，也为平台带来可分享的额外收益。"
+      },
+      {
+        "id": "studios",
+        "title": "摄影工作室",
+        "subtitle": "把 AI 家装加入房产摄影套餐。",
+        "description": "拓展服务组合、提升客单价。为客户提供拍摄 + 虚拟布置的一体化方案，节省他们的时间与传统布置成本。"
+      }
+    ]
+  },
+  "cta": {
+    "title": "准备好开始了吗？",
+    "description": "需要大规模或定制化的 API 接入？",
+    "button": "获取定制报价"
+  }
+}

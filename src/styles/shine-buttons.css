@@ -1,0 +1,38 @@
+/* shine-buttons.css */
+/* Эффект бегущего блеска только для кнопок Try for free */
+
+.try-free-button {
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.try-free-button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -60px;
+  height: 250%;
+  width: 40px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.4),
+    transparent
+  );
+  transform: rotate(45deg) translateY(-35%);
+  animation: shine 3s ease-in-out infinite;
+  pointer-events: none;
+}
+
+@keyframes shine {
+  0% {
+    left: -80px;
+  }
+  40% {
+    left: calc(100% + 20px);
+  }
+  100% {
+    left: calc(100% + 20px);
+  }
+}
