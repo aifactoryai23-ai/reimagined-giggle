@@ -1,0 +1,133 @@
+{
+  "meta": {
+    "title": "AI Home Staging App | Sell & Rent Properties Faster with Virtual Design",
+    "description": "AI-powered home staging app for private sellers, Airbnb hosts, and DIY homeowners. Instantly enhance property photos, remove clutter, and create stunning real estate visuals to sell or rent faster.",
+    "keywords": "AI home staging, virtual staging, real estate photo enhancement, property photo AI, home listing optimization, Airbnb photo improvement, DIY home seller, sell house faster",
+    "ogTitle": "AI Home Staging App | Sell & Rent Faster",
+    "ogDescription": "Transform property photos with AI. Remove clutter, improve lighting, and virtually stage interiors in seconds.",
+    "ogImage": "https://interiordesignbot.com/interiordesignbot_logo.png"
+  },
+  "hero": {
+    "titlePrefix": "Transform Properties,",
+    "titleHighlight": "Sell Faster, Save Your Time",
+    "description": "Turn any interior or exterior photo into a stunning, professionally staged listing in seconds. No renovation needed. No designer costs. Just AI-Powered Home Staging.",
+    "freeTransformations": "2 free transformations",
+    "noCardRequired": "No credit card required"
+  },
+  "benefits": {
+    "title": "Home Staging Pro App. Stage Your Listing in a Click, Sell It in a Week",
+    "subtitle": "<mark>Professional staging without the wait or cost</mark>",
+    "items": [
+      {
+        "id": "instantGlow",
+        "icon": "zap",
+        "title": "Instant Home Glow up",
+        "description": "Turn cluttered rooms into magazine-worthy listings instantly — no designers needed."
+      },
+      {
+        "id": "magicWand",
+        "icon": "wand",
+        "title": "AI Magic Wand",
+        "description": "Automatically remove clutter, enhance lighting, and redesign any room with a single click."
+      },
+      {
+        "id": "sellFaster",
+        "icon": "spotlight",
+        "title": "Sell Homes Faster",
+        "description": "Stop waiting months — staged homes sell 40% faster."
+      }
+    ]
+  },
+  "priceList": {
+    "title": "PRICE LIST",
+    "subtitle": "<mark>for those who don’t use InteriorDesign app</mark>",
+    "items": [
+      {
+        "id": "ai",
+        "text": "AI does everything .......... $5",
+        "extra": "+ time on your hands"
+      },
+      {
+        "id": "yourself",
+        "text": "You stage it yourself ................. $500",
+        "extra": "+ stress"
+      },
+      {
+        "id": "designer1",
+        "text": "You hire a designer ................... $1500"
+      },
+      {
+        "id": "designerWait",
+        "text": "You hire a designer, they wait ........ $2500"
+      },
+      {
+        "id": "designerDisagree",
+        "text": "You hire a designer, you disagree ..... $4000"
+      },
+      {
+        "id": "redesign",
+        "text": "You redesign again after feedback ..... $6000",
+        "extra": "+ tears"
+      },
+      {
+        "id": "again",
+        "text": "You do everything again and again ..... $8000",
+        "extra": "+ tears"
+      }
+    ]
+  },
+  "perfectFor": {
+    "title": "Perfect For",
+    "items": [
+      {
+        "id": "privateSellers",
+        "title": "Homeowners Selling Their Homes Privately",
+        "desc1": "<mark>Easily prepare your home photos for online listings</mark> — no agents, no expensive staging.",
+        "desc2": "Upload your photos, describe what you'd like changed, and let AI instantly declutter, brighten, and restyle your rooms."
+      },
+      {
+        "id": "marketplaces",
+        "title": "DIY Home Sellers on Real Estate Marketplaces",
+        "desc1": "Make your property stand out among thousands of listings.",
+        "desc2": "Even if you're selling your home on your own, <mark>AI virtual staging transforms ordinary photos into professional, magazine-quality images</mark>."
+      },
+      {
+        "id": "rentals",
+        "title": "Short-Term Rental Hosts (Airbnb, Booking, Hotels, Cian, Avito, Trivago, Expedia, Agoda)",
+        "desc1": "Get more bookings with stunning, well-staged photos.",
+        "desc2": "<mark>AI staging declutters, brightens, and styles interiors</mark> — helping your property look cozy, welcoming, and guest-ready."
+      },
+      {
+        "id": "movingFamilies",
+        "title": "Families Preparing to Move",
+        "desc1": "Show your home's full potential before you relocate.",
+        "desc2": "Whether your rooms are empty or packed with moving boxes, <mark>AI staging can virtually refurnish and decorate</mark> them — helping buyers imagine themselves living there."
+      },
+      {
+        "id": "afterRenovation",
+        "title": "Homeowners After Renovation or Redecoration",
+        "desc1": "Highlight your renovation results with professionally staged visuals.",
+        "desc2": "Use AI <mark>to visualize your space in styles</mark> — like Scandinavian, modern, or minimalist — and make your listing photos shine."
+      }
+    ]
+  },
+  "styles": {
+    "title": "Choose Your Style",
+    "subtitle": "From modern minimalism to cozy warmth — create a style that matches your property.",
+    "note": "Photography, all 4 in a row, by Nicole Franzen - she is great!",
+    "items": [
+      { "id": "modern", "name": "Modern" },
+      { "id": "scandinavian", "name": "Scandinavian" },
+      { "id": "minimal", "name": "Minimal" },
+      { "id": "cozy", "name": "Cozy" }
+    ]
+  },
+  "transformation": {
+    "title": "Look at the AI Transformation",
+    "subtitle": "One Prompt, Endless Properties"
+  },
+  "cta": {
+    "title": "Ready to Transform Your Listings?",
+    "subtitle": "Start with 2 free transformations. No credit card required."
+  }
+}

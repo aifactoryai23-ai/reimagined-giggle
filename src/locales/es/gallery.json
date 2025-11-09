@@ -1,0 +1,35 @@
+{
+  "hero": {
+    "badge": "// Galería",
+    "title": "Tu galería",
+    "description": "Revisa los resultados antes/después que ya generaste.",
+    "highlight": "Vuelve a escenificar tus fotos con un nuevo prompt de IA cuando quieras, directamente desde la galería.",
+    "cta": "Nueva transformación"
+  },
+  "empty": {
+    "title": "Aún no tienes imágenes generadas.",
+    "subtitle": "Comienza creando tu primera transformación."
+  },
+  "alerts": {
+    "confirmDelete": "¿Eliminar este proyecto para siempre?",
+    "loadFailed": "No se pudo cargar la galería.",
+    "afterDownloadUnavailable": "La imagen final no está disponible para descargar.",
+    "afterPreviewUnavailable": "No hay vista previa de la imagen final. Inténtalo más tarde.",
+    "afterPathMissing": "No se encontró la ruta de la imagen final para este proyecto.",
+    "downloadFailed": "Error al descargar. Inténtalo de nuevo.",
+    "regenerateFailed": "No se pudo regenerar. Inténtalo otra vez.",
+    "afterNotFound": "La imagen final no se encontró en los datos del proyecto.",
+    "deleteFailed": "No se pudo eliminar. Inténtalo otra vez.",
+    "saveError": "Error al eliminar el proyecto"
+  },
+  "card": {
+    "noPrompt": "Sin descripción",
+    "downloadName": "interior_after_{{id}}.jpg"
+  },
+  "modal": {
+    "before": "Antes",
+    "after": "Después",
+    "prompt": "Prompt:",
+    "noDescription": "No hay descripción disponible."
+  }
+}
